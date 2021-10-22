@@ -1,0 +1,2014 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    
+  color: #444;
+ 
+}
+.wrap{
+    position: relative;
+}
+.main{
+    background: rgb(73 71 63 / 60%);
+    width: 100%;
+    padding: 16px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.right_menu{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.right_menu nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.right_menu nav ul li{
+    list-style: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
+.right_menu nav ul li a{
+    text-decoration: none;
+    color: #b8b8b8;
+position: relative;
+    
+}
+.right_menu nav ul li a::before{
+position: absolute;
+left: 0;
+right: 0;
+bottom: -45px;
+content: "";
+border-bottom: 3px solid #18cfab;
+opacity: 0;
+transition: all 0.3s;
+}
+.right_menu nav ul li a:hover{
+    color: #18cfab;
+    
+}
+.right_menu nav ul li a:hover::before{
+    opacity: 1;
+    bottom: -45px;
+}
+.right_menu nav ul li.active a {
+    color: #18cfab;
+  }
+  .right_menu nav ul li.active a::before {
+    opacity: 1;
+    bottom: -45px;
+  }
+.top_head{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.search_icon{
+    padding-left: 16px;
+}
+.bottom_head{
+    width: 100%;
+}
+.bottom_head img{
+   width: 100%;
+}
+.banner_paras{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner_paras h1{
+    font-size: 34px;
+    margin: 0 0 34px;
+
+}
+.banner_paras h2{
+    font-size: 79px;
+    margin: 0 0 34px;
+
+}
+
+.banner_paras h3{
+    font-size: 34px;
+font-weight: 300;
+text-transform: capitalize;
+}
+.banner_btns{
+    top: 0;
+    position: absolute;
+    display: flex;
+    margin-top: 445px;
+    margin-left: 425px;
+}
+.btn_1{
+ min-width: 168px;
+border-radius: 4px;
+background-color: #18cfab;
+font-size: 13px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+text-transform: uppercase;
+border-top: 4px solid #ffffff;
+margin:0 13px;
+padding: 25px 15px;
+
+}
+.btn_2{
+    min-width: 168px;
+border-radius: 4px;
+background-color: #00cbf6;
+font-size: 13px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+text-transform: uppercase;
+border-top: 4px solid #ffffff;
+margin:0 13px;
+padding: 25px 15px;
+
+}
+ 
+
+
+
+.options{
+height: 375px;
+width: 100%;
+display: flex;
+text-align: center;
+margin-top: -5px;
+}
+.options svg{
+    margin-top: 80px;
+}
+.options img{
+    margin-top: 80px;
+}
+
+.card1{
+width: 25%;
+height: 80%;
+background-color: #1c2a33;
+}
+.card2{
+    width: 25%;
+    height: 80%;
+    background-color: #18cfab;
+}
+.card3{
+    width: 25%;
+    height: 80%;
+    background-color: #1c2a33;  
+}
+.card4{
+    width: 25%;
+    height: 80%;
+    background-color: #18cfab;
+}
+.smallCard1{
+    width:100%;
+height: 7px;
+background-color: #18cfab;
+}
+.smallCard2{
+    width: 100%;
+height: 7px;
+background-color: #ffff;
+}
+.smallCard3{
+    width: 100%;
+height: 7px;
+background-color: #18cfab;
+}
+.smallCard4{
+    width: 100%;
+height: 7px;
+background-color: #ffff;
+}
+.card1 p a {
+    font-size: 20px;
+color: #18cfab;
+font-weight: 700;
+font-family: "Montserrat";
+
+}
+.card2 p a {
+    font-size: 20px;
+color: #ffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.card3 p a {
+    font-size: 20px;
+color: #18cfab;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.card4 p a {
+    font-size: 20px;
+color: #ffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.card1 p{
+    margin-top: 40px;
+}
+.card2 p{
+    margin-top: 60px;
+}
+.card3 p{
+    margin-top: 40px;
+}
+.card4 p{
+    margin-top: 60px;
+}
+.features{
+    height: 800px;
+}
+.features h2{
+    font-size: 36px;
+line-height: 40px;
+color: #4e4e4e;
+font-weight: 400;
+
+text-align: center;
+}
+.feature1{
+    width: 31%;
+    height: 160px;
+
+}
+.feature2{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+}
+.feature3{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+}
+.feature4{
+    width: 31%;
+    height: 160px;
+    margin-top: 33px;
+}
+.feature5{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.feature6{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.feature7{
+    width: 31%;
+    height: 160px;
+    margin-top: 33px;
+}
+.feature8{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.feature9{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.amazeFeatures{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.imgP{
+    float: left;
+    overflow: hidden;
+}
+.amazeFeatures .imgP .imgPsvg{
+    float: left;
+    width: 24px;
+ height: 34px;
+}
+.imgP p{
+    float: right;
+    margin-left: 30px;
+    font-size: 18px;
+line-height: 40px;
+color: #717171;
+font-weight: 700;
+
+
+}
+.imgP .active{
+    color: #18cfab;
+}
+.modules{
+    margin-top: 50px;
+    text-align: left;
+    width: 300px;
+height: 77px;
+font-size: 14px;
+line-height: 25px;
+color: #777777;
+font-weight: 300;
+
+}
+.about{
+    height: 600px;
+    background-image: url(../images/aboutcompnay-bg.jpg);
+    background-size: cover;
+    
+}
+.ourCompany{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about .tabImage img{
+    width: 600px;
+    margin-top: 270px;
+}
+.progressBar{
+    margin-top: 100px;
+                                    
+}
+.progressBar h2{
+    font-size: 36px;
+line-height: 40px;
+color: #ffffff;
+font-weight: 400;   
+margin-left: 20px;
+}
+.progressBar ul{
+    display: flex;
+    margin-top: 60px;
+    text-align: left;
+}
+.progressBar ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+.progressBar ul li a{
+text-decoration: none;
+font-size: 16px;
+line-height: 42px;
+color: #f5f5f5;
+font-weight: 700;
+
+
+}
+.progressBar ul li a:hover{
+    color: #18cfab;
+    border-top: 1px solid #18cfab;
+}
+ .progressBar ul li:last-child{
+    color: #18cfab;
+} 
+.about .progressBar .progress #prog1{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog1 .pr1{
+    width: 400px;
+    height: 37px;
+    background-color: #9b5ea4;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 5px;
+}
+.about .progressBar .progress #prog2{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog2 .pr2{
+    width: 480px;
+    height: 37px;
+    background-color: #12b0df;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 4px;
+}
+.about .progressBar .progress #prog3{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog3 .pr3{
+    width: 350px;
+    height: 37px;
+    background-color: #d77f7e;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 4px;
+}
+.about .progressBar .progress #prog4{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog4 .pr4{
+    width: 530px;
+    height: 37px;
+    background-color: #21bc9d;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 4px;
+}
+.about .progressBar .progress #prog5{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog5 .pr5{
+    width: 430px;
+    height: 37px;
+    border-radius: 4px;
+    background-color: #bc8936;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+}
+.progressBar .progress{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.progressBar .ourSkills{
+    border-top: 2px solid #16cfa2;
+    color: #16cfa2;
+    
+}
+.about .ourCompany .progressBar .hr1{
+width: 80px;
+height: 2px;
+background-color: #18cfab;
+margin-top: 30px;
+margin-left: 140px;
+}
+.about .ourCompany .progressBar .hr2{
+    width: 80px;
+height: 2px;
+background-color: #18cfab;
+margin-top: 2px;
+margin-left: 170px;
+}
+.features .hr1{
+    width: 80px;
+height: 2px;
+background-color: #18cfab;
+margin-top: 30px;
+margin-left: 450px;
+}
+.features .hr2{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-top: 2px;
+    margin-left: 480px;
+}
+.amazingWork{
+    background-color: #f8fcff;
+    height: 1050px;
+}
+.amazingWork h2{
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
+.amazingWork .hr1{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+.amazingWork .hr2{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-top: 2px;
+    margin-left: 480px;
+}
+.works{
+    margin-top: 40px;
+}
+.works ul{
+    display: flex;
+    justify-content: center;
+}
+.works ul li{
+    list-style: none;
+    padding: 10px 30px;
+background-color: #ffffff;
+border: 1px solid #ebebeb;
+text-align: center;
+}
+.works ul li a{
+    text-decoration: none;
+    font-size: 14px;
+line-height: 42px;
+color: #717171;
+font-weight: 400;
+
+}
+.amazingWork .works ul li .all{
+    
+    color: #18cfab;
+}
+.amazingWork .works ul .liAll{
+    border-top: 1px solid #18cfab;   
+}
+.amazingWork .works ul li a:hover{
+    color: #18cfab;
+}
+
+.amazingWork .workImages{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.work1{
+    width: 25%;
+    height: 208px;
+    border-top: 1px solid #18cfab;
+}
+.work2{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/news/img-1.jpg);
+    background-size: cover;
+}
+.work3{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/news/img-2.jpg);
+    background-size: cover;
+}
+.work4{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/serviecs/tab1.jpg);
+    background-size: cover;
+}
+.work5{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/serviecs/tab2.jpg);
+    background-size: cover;
+}
+.work6{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/news/img-1.jpg);
+    background-size: cover;
+}
+.work7{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/news/img-2.jpg);
+    background-size: cover;
+}
+.work8{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/serviecs/tab1.jpg);
+    background-size: cover;
+}
+.work9{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/serviecs/tab2.jpg);
+    background-size: cover;
+}
+.work10{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/news/img-1.jpg);
+    background-size: cover;
+}
+.work11{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/news/img-2.jpg);
+    background-size: cover;
+}
+.work12{
+    width: 25%;
+    height: 208px;
+    background-image: url(../images/serviecs/tab1.jpg);
+    background-size: cover;
+}
+.workImages .workIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.workIcons .icon1{
+    width: 41px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #18cfab;
+    padding: 10px;
+}
+.workIcons .icon2{
+    margin-left: 5px;
+    width: 41px;
+height: 40px;
+border-radius: 20px;
+background-color: #18cfab;
+padding: 10px;
+}
+ .workBtn{
+    font-size: 18px;
+line-height: 42px;
+color: #ffffff;
+font-weight: 700;
+width: 165px;
+height: 60px;
+border-radius: 4px;
+background-color: #18cfab;
+margin-left:500px;
+margin-top: 40px;
+border: none;
+}
+.workBtn .plus{
+    margin-right:  10px;
+}
+.creativeDesign{
+    font-size: 14px;
+line-height: 25px;
+color: #18cfab;
+font-weight: 700;
+text-align: center;
+margin-top: 20px;
+}
+.webDesign{
+    font-size: 12px;
+line-height: 25px;
+color: #8a8a8a;
+font-weight: 300;
+text-align: center;
+margin-top: 20px;
+} 
+.ourServices h2{
+    font-size: 36px;
+line-height: 40px;
+color: #4e4e4e;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center; 
+margin-top: 60px;
+}
+
+.ourServices .services{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ourServices .services div{
+    background-color: #f8fcfe;
+    border: 1px solid #ebebeb;
+    text-align: left;
+    padding: 15px 40px;
+}
+
+.ourServices .services div a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 39px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Montserrat";
+    
+}
+.serviceInfo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.serviceInfo .serviceImage{
+    width: 230px;
+    height: 230px;
+    margin-left: 50px;
+}
+.serviceInfo .servicePara{
+    width: 900px;
+    height: 230px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: justify;
+    margin-right: 50px;
+}
+.ourServices .services .active {
+    background-color: #18cfab;
+    color: #ffff;
+}
+.ourServices .services div:hover{
+    background-color: #18cfab;
+    color: #ffff;
+}
+.ourServices .hr1{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-top: 12px;
+    margin-left: 520px;
+}
+.ourServices .hr2{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-left: 550px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width:1024px){
+    .banner_btns{
+        margin-top: 382px;
+        margin-left: 313px;
+    }
+    .banner_paras h1{
+        font-size: 25px;
+        margin: 0 0 25px;
+    }
+    .banner_paras h2{
+        font-size: 65px;
+        margin: 0 0 25px;
+    }
+    .banner_paras h3{
+        font-size: 25px;
+    }
+    .amazeFeatures {
+        padding-left: 35px;
+    }
+    .top_head{
+        padding:0px 20px;
+    }
+    .main{
+        padding: 10px 0px;
+    }
+    .right_menu nav ul li a::before{
+        bottom: -39px;
+    }
+    .right_menu nav ul li a:hover::before{
+        bottom: -39px;
+    }
+    .right_menu nav ul li.active a::before {
+        bottom: -39px;
+    }
+    .about .tabImage img {
+        margin-top: 365px;
+    }
+    .workBtn{
+        margin-left: 430px;
+    }
+    .ourServices .services div {
+        padding: 15px 30px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .right_menu nav ul li{
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .main {
+        padding: 5px 0;
+    }
+    .right_menu nav ul li a::before{
+        bottom: -20px;
+    }
+    .right_menu nav ul li a:hover::before{
+        bottom: -20px;
+    }
+    .right_menu nav ul li.active a::before {
+        bottom: -20px;
+    }
+    .left_logo img{
+        width: 100px;
+    }
+    .banner_paras h1{
+        font-size: 17px;
+        margin: 0 0 10px;
+    }
+    .banner_paras h2{
+        font-size: 45px;
+        margin: 0 0 10px;
+    }
+    .banner_paras h3{
+        font-size: 17px;
+    }
+    .banner_btns{
+        margin-top: 270px;
+        margin-left: 210px;
+    }
+    .btn_1{
+        min-width: 150px;
+        padding: 15px 15px;
+    }
+    .btn_2{
+        min-width: 150px;
+        padding: 15px 15px;
+    }
+    .features .hr1{
+        margin-left: 323px;
+    }
+    .features .hr2{
+        margin-left: 345px;
+    }
+    .amazeFeatures{
+        padding-left: 70px;
+    }
+    .features{
+        height: 1120px;
+    }
+    .feature1{
+        width: 47%;
+    }
+    .feature2{
+        width: 47%;
+    }
+    .feature3{
+        width: 47%;
+        margin-left: 0;
+    }
+    .feature4{
+        width: 47%;
+        margin-top: 0;
+        margin-left: 35px;
+    }
+    .feature5{
+        width: 47%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .feature6{
+        width: 47%;
+        margin-left: 35px;
+        margin-top: 0;
+    }
+    .feature7{
+        width: 47%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .feature8{
+        width: 47%;
+        margin-left: 35px;
+        margin-top: 0;
+    }
+    .feature9{
+        width: 47%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .progressBar h2{
+        font-size: 30px;
+    }
+    .about .progressBar .progress #prog1{
+        width: 400px;
+    }
+    .about .progressBar .progress #prog2{
+        width: 400px;
+    }
+    .about .progressBar .progress #prog3{
+        width: 400px;
+    }
+    .about .progressBar .progress #prog4{
+        width: 400px;
+    }
+    .about .progressBar .progress #prog5{
+        width: 400px;
+    }
+    .about .progressBar .progress #prog2 .pr2{
+        width: 340px;
+    }
+    .about .progressBar .progress #prog1 .pr1 {
+        width: 300px;
+    }
+
+.about .progressBar .progress #prog4 .pr4{
+    width: 380px;
+}
+.about .progressBar .progress #prog5 .pr5 {
+    width: 260px;
+}
+.about .tabImage img {
+    margin-top: 420px;
+}
+.about .ourCompany .progressBar .hr1 {
+    margin-left: 100px;
+}
+.about .ourCompany .progressBar .hr2 {
+margin-left: 125px;
+}
+.workBtn{
+    margin-left: 300px;
+}
+.amazingWork .hr1{
+    margin-left: 320px;
+}
+.amazingWork .hr2 {
+    margin-left: 344px;
+}
+.ourServices .services div {
+    padding: 15px 9px;
+}
+.serviceInfo .serviceImage {
+    margin-right: 20px;
+}
+.serviceInfo .servicePara {
+    line-height: 12px;
+}
+}
+
+@media screen and (max-width:425px){
+    body{
+        width: 132%;
+    }
+    .right_menu nav ul li{
+        padding: 0 3px;
+        font-size: 7px;
+    }
+    .banner_paras h1 {
+        font-size: 12px;
+        margin: 0 0 2px;
+    }
+    .banner_paras h2 {
+        font-size: 30px;
+        margin: 0 0 2px;
+    }
+    .banner_paras h3 {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .bottom_head img{
+        object-fit: cover;
+        height: 100%;
+    }
+    .btn_1 {
+        min-width: 130px;
+        padding: 15px 0px;
+    }
+    .btn_2 {
+        min-width: 130px;
+        padding: 15px 0px;
+    }
+    .banner_btns{
+        margin-top: 195px;
+        margin-left: 132px;
+    }
+    .options{
+        height: 375px;
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 50%;
+    }
+    .card2{
+        width: 50%;
+    }
+    .card3{
+        width: 50%;
+    }
+    .card4{
+        width: 50%;
+    }
+    .amazeFeatures{
+        padding: 0 127px;
+    }
+    .features{
+        margin-top: 270px;
+        height: 1600px;
+    }
+    .features .hr1{
+        margin-left: 210px;
+    } 
+    .features .hr2 {
+margin-left: 243px;
+    }
+    .feature1{
+        width: 100%;
+    }
+    .feature2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .feature3{
+        width: 100%;
+    }
+    .feature4{
+        width: 100%;
+        margin-left: 0;
+    }
+    .feature5{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .feature6{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .feature7{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .feature8{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .feature9{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .ourCompany {
+        flex-wrap: wrap;
+    }
+    .about .tabImage img{
+        margin-top: 83px;
+    }
+    .ourCompany .tabImage{
+        width: 100%;
+    }
+    .ourCompany .progressBar{
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        height: 1050px;
+    }
+
+    .amazingWork {
+        margin-top: 7px;
+    }
+    .about .ourCompany .progressBar .hr1{
+        margin-left: 229px;
+    }
+    .about .ourCompany .progressBar .hr2{
+        margin-left: 253px;
+    }
+    .progressBar ul {
+        justify-content: center;
+        margin-right: 19px;
+    }
+    .progressBar .progress {
+        padding: 0 82px;
+    }
+    .amazingWork .hr1 {
+        margin-top: 10px;
+        margin-left: 217px;
+    }
+    .amazingWork .hr2 {
+        margin-left: 238px;
+    }
+    .works {
+        padding: 0 11px;
+    }
+    .works ul li{
+        padding:0 10px;
+        
+    }
+    .work1{
+        width: 50%;
+    }
+    .work2{
+        width: 50%;
+    }
+    .work3{
+        width: 50%;
+    }
+    .work4{
+        width: 50%;
+    }
+    .work5{
+        width: 50%;
+    }
+    .work6{
+        width: 50%;
+    }
+    .work7{
+        width: 50%;
+    }
+    .work8{
+        width: 50%;
+    }
+    .work9{
+        width: 50%;
+    }
+    .work10{
+        width: 50%;
+    }
+    .work11{
+        width: 50%;
+    }
+    .work12{
+        width: 50%;
+    }
+    .workBtn{
+        margin-left: 200px;
+        margin-top: 25px;
+    }
+    .amazingWork .workImages{
+        margin-top: 12px;
+    }
+    .works{
+        margin-top: 13px;
+    }
+    .ourServices{
+        margin-top: 520px;
+    }
+    .ourServices .hr1 {
+        margin-left: 229px;
+    }
+    .ourServices .hr2 {
+        margin-left: 259px;
+    }
+    .ourServices .services div a {
+        font-size: 11px;
+    }
+    .ourServices .services div {
+        padding: 8px 9px;
+    }
+    .serviceInfo .serviceImage{
+        margin-left: 32px;
+    }
+    .serviceInfo .servicePara {
+        font-size: 11px;
+        margin-right: 32px;
+    }
+    .ourServices {
+        margin-top: 554px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .right_menu nav ul li{
+        padding: 0 2px;
+        font-size: 6px;
+    }
+    .left_logo img {
+        width: 80px;
+    }
+    .banner_paras h1{
+        font-size: 10px;
+        margin: 0 0 0px;
+    }
+    .banner_paras h2 {
+        font-size: 23px;
+        margin: 0 0 0px;
+    }
+    .banner_paras h3 {
+        font-size: 10px;
+    }
+    .btn_1{
+        min-width: 105px;
+        font-size: 10px;
+    }
+    .btn_2{
+        min-width: 105px;
+        font-size: 10px;
+    }
+    .banner_btns{
+        
+        margin-top: 215px;
+        margin-left: 120px;
+    }
+    .banner_paras {
+        line-height: 32px;
+        margin-top: -30px;
+        padding-top: 62px;
+    }
+    .bottom_head img{
+        height: 320px;
+    }
+    .features .hr1 {
+        margin-left: 190px;
+    }
+    .features .hr2 {
+margin-left: 210px;
+    }
+    .amazeFeatures {
+        padding: 0 115px;
+    }
+    .modules{
+        width: 270px;
+        text-align: justify;
+    }
+    .progressBar .progress {
+        padding: 0 50px;
+    }
+    .amazingWork .hr1 {
+        margin-left: 191px;
+    }
+    .amazingWork .hr2 {
+        margin-left: 215px;
+    }
+    .workBtn{
+        margin-left: 164px;
+    }
+    .ourServices .services div {
+        padding: 8px 4px;
+    }
+    .ourServices {
+        margin-top: 568px;
+    }
+    .ourServices .hr1 {
+        margin-left: 194px;
+    }
+    .ourServices .hr2 {
+        margin-left: 223px;
+    }
+}
+
+@media screen and (max-width:320px){
+    body{
+        width: 140%;
+    }
+    .banner_btns{
+        margin-left: 96px;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        width: 100%;
+    }
+    .card3{
+        width: 100%;
+    }
+    .card4{
+        width: 100%;
+    }
+    .features{
+        margin-top: 870px;
+    }
+    .features h2 {
+        font-size: 27px;
+    }
+    .features .hr1{
+        margin-left: 172px;
+        margin-top: 5px;
+    }
+    .features .hr2{
+        margin-left: 197px;
+    }
+    .amazeFeatures {
+        padding: 0 93px;
+    }
+    .progressBar h2 {
+        margin-left: -11px;
+    }
+    .about .ourCompany .progressBar .hr1{
+        margin-left: 167px;
+        margin-top: 5px;
+    }
+    .about .ourCompany .progressBar .hr2{
+        margin-left: 189px;
+    }
+    .progressBar .progress {
+        padding: 0 27px;
+    }
+    .amazingWork .hr1 {
+        margin-left: 160px;
+    }
+    .amazingWork .hr2 {
+        margin-left: 190px;
+    }
+    .works ul {
+        margin: 0 40px;
+    }
+    .workBtn {
+        margin-left: 145px;
+    }
+    .ourServices .services div {
+        padding: 0px 2px;
+    }
+    .serviceInfo .serviceImage {
+        margin-left: 19px;
+    }
+    .serviceInfo .servicePara {
+        font-size: 9px;
+        margin-right: 18px;
+    }
+    .ourServices .hr1 {
+        margin-left: 173px;
+    }
+    .ourServices .hr2 {
+        margin-left: 202px;
+    }
+    .ourServices {
+        margin-top: 572px;
+    }
+}
+
+
+
+
+
+
+/* @media screen and (max-width:1034px){
+    .banner_btns{
+        margin-top: 378px;
+        margin-left: 306px;
+    }
+} */
+/* 
+@media screen and (max-width:1124px){
+    .banner_btns{
+        margin-top: 406px;
+        margin-left: 365px;
+    }
+}
+
+@media screen and (max-width:1136px){
+    .banner_btns{
+        margin-top: 411px;
+        margin-left: 366px;
+    }
+}
+
+@media screen and (max-width:1160px){
+    .banner_btns{
+        margin-top: 414px;
+        margin-left: 376px;
+    }
+}
+@media screen and (max-width:1178px){
+    .banner_btns{
+        margin-top: 420px;
+        margin-left: 386px;
+    }
+}
+
+@media screen and (max-width:1188px){
+    .banner_btns{
+        margin-top: 414px;
+        margin-left: 394px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .banner_btns{
+        margin-top: 418px;
+        margin-left: 398px;
+    }
+}
+
+@media screen and (max-width:1218px){
+    .banner_btns{
+        margin-top: 423px;
+        margin-left: 407px;
+    }
+} */
+
+
+@media screen and (min-width:1025px) and (max-width:1236px){
+    .banner_btns{
+        margin-top: 428px;
+        margin-left: 414px;
+    }
+} 
+
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .banner_btns{
+        margin-top: 375px;
+        margin-left: 315px;
+    }
+} 
+@media screen and (min-width:769px) and (max-width:1023px){
+    .banner_btns{
+        margin-top: 280px;
+        margin-left: 213px;
+    }
+}
+@media screen and (min-width:1100px) and (max-width:1200px){
+    .banner_btns{
+        margin-top: 413px;
+        margin-left: 400px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+    .banner_btns{
+        margin-top: 317px;
+        margin-left: 248px;
+    }
+    .feature1{
+        margin-left: 0;
+    }
+    .feature2{
+        margin-left: 0;
+    }
+    .feature3{
+        margin-left: 0;
+    }
+    .feature4{
+        margin-left: 0;
+    }
+    .feature5{
+        margin-left: 0;
+    }
+    .feature6{
+        margin-left: 0;
+    }
+    .feature7{
+        margin-left: 0;
+    }
+    .feature8{
+        margin-left: 0;
+    }
+    .feature9{
+        margin-left: 0;
+    }
+    .modules{
+        width: 270px;
+    }
+    .amazeFeatures {
+        padding-left: 95px;
+    }
+    .workBtn {
+        margin-left: 406px;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1025px){
+    .banner_btns{
+        margin-top: 350px;
+        margin-left: 316px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:620px) and (max-width:710px){
+    .banner_btns{
+        margin-top: 272px;
+        margin-left: 198px;
+    }
+    body{
+        width: 106%;
+    }
+}
+
+@media screen and (min-width:585px) and (max-width:618px){
+    .modules {
+        width: 257px;
+    }
+    .right_menu nav ul li{
+        font-size: 8px;
+    }
+    .banner_btns {
+        margin-top: 219px;
+        margin-left: 121px;
+    }
+    .amazeFeatures {
+        padding-left: 30px;
+    }
+    .feature4 {
+        margin-left: 0px;
+    }
+    .feature6 {
+        margin-left: 0px;
+    }
+    .feature8 {
+        margin-left: 0px;
+    }
+    .workBtn{
+        margin-left: 211px;
+    }
+}
+
+@media screen and (min-width:1058px) and (max-width:1140px){
+    .banner_btns{
+        margin-top: 397px;
+        margin-left: 359px;
+    }
+}
+
+@media screen and (min-width:562px) and (max-width:585px){
+    .banner_btns{
+        margin-top: 215px;
+        margin-left: 116px;
+    }
+    .features .hr1{
+        margin-left: 234px;
+    }
+    .features .hr2{
+        margin-left: 251px;
+    }
+    .amazeFeatures{
+        padding-left: 53px;
+    }
+    .feature2{
+        margin-left: 0;
+    }
+    .modules{
+        width: 240px;
+    }
+    .feature4{
+        margin-left: 0;
+    }
+    .feature6{
+        margin-left: 0;
+    }
+    .feature8{
+        margin-left: 0;
+    }
+    .amazingWork .hr1{
+        margin-left: 229px;
+    }
+    .amazingWork .hr2{
+        margin-left: 250px;
+    } 
+    .works ul li {
+        padding: 0 10px;
+    }
+    .workBtn {
+        margin-left: 214px;
+    }
+    .progressBar h2 {
+        font-size: 25px;
+    }
+    .about .ourCompany .progressBar .hr1{
+        margin-left: 73px;
+        margin-top: 5px;
+    }
+    .about .ourCompany .progressBar .hr2 {
+        margin-left: 97px;
+    }
+    .progressBar ul li a {
+        font-size: 13px;
+    }
+    .about .progressBar .progress #prog1 {
+        width: 370px;
+    }
+    .about .progressBar .progress #prog2 {
+        width: 370px;
+    }
+    .about .progressBar .progress #prog3 {
+        width: 370px;
+    }
+    .about .progressBar .progress #prog4 {
+        width: 370px;
+    }
+    .about .progressBar .progress #prog5 {
+        width: 370px;
+    }
+    .about .progressBar .progress #prog4 .pr4 {
+        width: 364px;
+    }
+}
+
+@media screen and (min-width:460px) and (max-width:561px){
+    .banner_btns{
+        margin-top: 207px;
+        margin-left: 127px;
+    }
+    .btn_1{
+        min-width: 130px;
+        font-size: 10px;
+    }
+    .btn_2{
+        min-width: 130px;
+        font-size: 10px;
+    }
+    .amazeFeatures{
+        padding-left: 40px;
+    }
+    .feature2{
+        margin-left: 0;
+    }
+    .feature4{
+        margin-left: 0;
+    }
+    .feature6{
+        margin-left: 0;
+    }
+    .feature8{
+        margin-left: 0;
+    }
+    .modules {
+        width: 238px;
+    }
+
+.features h2 {
+    font-size: 29px;
+}
+.features .hr1{
+    margin-left: 220px;
+}
+.features .hr2{
+    margin-left: 238px;
+}
+.progressBar h2 {
+    font-size: 25px;
+}
+.about .ourCompany .progressBar .hr1{
+    margin-left: 73px;
+    margin-top: 5px;
+}
+.about .ourCompany .progressBar .hr2 {
+    margin-left: 97px;
+}
+.progressBar ul li a {
+    font-size: 13px;
+}
+.about .progressBar .progress #prog1 {
+    width: 370px;
+}
+.about .progressBar .progress #prog2 {
+    width: 370px;
+}
+.about .progressBar .progress #prog3 {
+    width: 370px;
+}
+.about .progressBar .progress #prog4 {
+    width: 370px;
+}
+.about .progressBar .progress #prog5 {
+    width: 370px;
+}
+.about .progressBar .progress #prog4 .pr4 {
+    width: 364px;
+}
+.works ul li {
+    padding: 0 10px;
+}
+.workBtn {
+    margin-left: 214px;
+}
+.amazingWork h2 {
+    font-size: 30px;
+}
+.amazingWork .hr1{
+    margin-left: 221px;
+}
+.amazingWork .hr2{
+    margin-left: 238px;
+}
+}
+
+@media screen and (min-width:426px) and (max-width:560px){
+    body{
+        width: 132%;
+    }
+    .right_menu nav ul li{
+        padding: 0 3px;
+        font-size: 7px;
+    }
+    .banner_paras h1 {
+        font-size: 12px;
+        margin: 0 0 2px;
+    }
+    .banner_paras h2 {
+        font-size: 30px;
+        margin: 0 0 2px;
+    }
+    .banner_paras h3 {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .bottom_head img{
+        object-fit: cover;
+        height: 100%;
+    }
+    .btn_1 {
+        min-width: 130px;
+        padding: 15px 0px;
+    }
+    .btn_2 {
+        min-width: 130px;
+        padding: 15px 0px;
+    }
+    .banner_btns{
+        margin-top: 195px;
+        margin-left: 132px;
+    }
+    .options{
+        height: 375px;
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 50%;
+    }
+    .card2{
+        width: 50%;
+    }
+    .card3{
+        width: 50%;
+    }
+    .card4{
+        width: 50%;
+    }
+    .amazeFeatures{
+        padding: 0 127px;
+    }
+    .features{
+        margin-top: 270px;
+        height: 1600px;
+    }
+    .features .hr1{
+        margin-left: 210px;
+    } 
+    .features .hr2 {
+margin-left: 243px;
+    }
+    .feature1{
+        width: 100%;
+    }
+    .feature2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .feature3{
+        width: 100%;
+    }
+    .feature4{
+        width: 100%;
+        margin-left: 0;
+    }
+    .feature5{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .feature6{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .feature7{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .feature8{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .feature9{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .ourCompany {
+        flex-wrap: wrap;
+    }
+    .about .tabImage img{
+        margin-top: 83px;
+    }
+    .ourCompany .tabImage{
+        width: 100%;
+    }
+    .ourCompany .progressBar{
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        height: 1050px;
+    }
+
+    .amazingWork {
+        margin-top: 7px;
+    }
+    .about .ourCompany .progressBar .hr1{
+        margin-left: 229px;
+    }
+    .about .ourCompany .progressBar .hr2{
+        margin-left: 253px;
+    }
+    .progressBar ul {
+        justify-content: center;
+        margin-right: 19px;
+    }
+    .progressBar .progress {
+        padding: 0 82px;
+    }
+    .amazingWork .hr1 {
+        margin-top: 10px;
+        margin-left: 217px;
+    }
+    .amazingWork .hr2 {
+        margin-left: 238px;
+    }
+    .works {
+        padding: 0 11px;
+    }
+    .works ul li{
+        padding:0 10px;
+        
+    }
+    .work1{
+        width: 50%;
+    }
+    .work2{
+        width: 50%;
+    }
+    .work3{
+        width: 50%;
+    }
+    .work4{
+        width: 50%;
+    }
+    .work5{
+        width: 50%;
+    }
+    .work6{
+        width: 50%;
+    }
+    .work7{
+        width: 50%;
+    }
+    .work8{
+        width: 50%;
+    }
+    .work9{
+        width: 50%;
+    }
+    .work10{
+        width: 50%;
+    }
+    .work11{
+        width: 50%;
+    }
+    .work12{
+        width: 50%;
+    }
+    .workBtn{
+        margin-left: 200px;
+        margin-top: 25px;
+    }
+    .amazingWork .workImages{
+        margin-top: 12px;
+    }
+    .works{
+        margin-top: 13px;
+    }
+}
+@media screen and (min-width:620px) and (max-width:660px){
+   .modules{
+       width: 270px;
+   }
+   .banner_btns {
+    margin-top: 245px;
+    margin-left: 157px;
+}
+.features .hr1 {
+    margin-left: 265px;
+}
+.features .hr2 {
+    margin-left: 290px;
+}
+.amazingWork .hr1 {
+    margin-left: 263px;
+}
+.amazingWork .hr2 {
+    margin-left: 285px;
+}
+.works ul li{
+    padding: 0 17px;
+}
+.workBtn {
+    margin-left: 245px;
+}
+
+
+}
+
+/* @media screen and (min-width:452px) and (max-width:560px){
+    .banner_btns {
+        margin-top: 238px;
+        margin-left: 216px;
+    }
+    .features .hr1 {
+        margin-left: 300px;
+    }
+    .features .hr2 {
+        margin-left: 325px;
+    }
+    .amazeFeatures{
+        padding: 0 229px;
+    }
+    .modules{
+        width: 300px;
+    }
+    .about .tabImage img {
+        width: 739px;
+    }
+    .about .ourCompany .progressBar .hr1 {
+        margin-left: 318px;
+    }
+    .about .ourCompany .progressBar .hr2 {
+        margin-left: 337px;
+    }
+    .progressBar .progress {
+        padding: 0 184px;
+    }
+    .amazingWork .hr1 {
+        margin-left: 302px;
+    }
+    .amazingWork .hr2 {
+        margin-left: 333px;
+    }
+    .workBtn{
+        margin-left: 288px;
+    }
+
+} */
+
+@media screen and (min-width:376px) and (max-width:424px){
+    .banner_btns{
+        margin-top: 190px;
+        margin-left: 125px;
+    }
+}

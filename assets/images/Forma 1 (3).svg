@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93 75" width="93" height="75">
+	<title>4 option</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="4 option">
+		<g id="2">
+			<path id="Forma 1" class="shp0" d="M74.29 0L62.05 18.42L49.4 0L74.29 0ZM60.11 22.63L32.94 22.63L46.52 74.03L60.11 22.63ZM33.85 19.61L59.2 19.61L46.52 1.16L33.85 19.61ZM31 18.42L43.65 0L18.75 0L31 18.42ZM43.65 75L29.81 22.63L0 22.63L43.65 75ZM0.04 19.61L28.16 19.61L15.91 1.19L0.04 19.61ZM77.12 1.22L64.89 19.61L92.96 19.61L77.12 1.22ZM63.24 22.63L49.4 74.99L93 22.63L63.24 22.63Z" />
+		</g>
+	</g>
+</svg>

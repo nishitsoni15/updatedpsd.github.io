@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 11" width="12" height="11">
+	<title>Work</title>
+	<defs>
+		<image  width="12" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAMAAAB8rpxtAAAAAXNSR0IB2cksfwAAAP9QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////fb62zwAAAFV0Uk5TP2On3Mu4z+a2TwkAZpbN47qct3IXAsn/fCcSb+lID/kcBQElq3UmjwiMyH4u6zoKMLFbGqnh4JoxhvC0PAZxpt7VXgsVlMabrokDKlgsNKz+ER5q8/lNqhcAAACPSURBVHicDcfnAoFQFADgo6Q4GkYucUlkZCZZ2Xtke/9n0ffvAwgxbJiL8EI0hhAXJVlJJHk2lVYhQ+RsDrV8QaFFKBFGL6NRqUpmDQipY6DRtFpt6BCu20OjbwsDB4buaEz1yXTmzRdAlx7Lias12Wwd2O3pgTvap7NrXQDxevNN//54klcQVN8fDfH7I3/EBxHFW5qA5gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Work">
+		<g id="Raw 1">
+			<g id="Hover">
+				<g id="icon">
+					<use id="Layer 67" href="#img1" x="0" y="0" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
