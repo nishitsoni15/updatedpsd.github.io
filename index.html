@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative One Page</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+    >
+</script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
+<script>
+    $(document).ready(function(){
+        $('.hamburger a').click(function(){
+            $('.right_menu nav').fadeToggle();
+            $(this).parent(".hamburger").toggleClass("openMenu");
+        });
+    });
+</script>
+
+
     <div class="wrap">
         <header>
             <div class="main">
@@ -64,6 +78,11 @@
                                         <use id="Search icon" href="#img1" x="0" y="0"/>
                                     </g>
                                 </svg>
+                            </div>
+                            <div class="hamburger openMenu">
+                                <a href="#">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                    
@@ -458,12 +477,134 @@
                     </div>
                     <div class="serviceInfo">
                         <div class="serviceImage">
-                            <img src="../psd3.github.io/assets/images/serviecs/tab1.jpg" alt="service_img"/>
+                            <img src="./assets/images/serviecs/tab1.jpg" alt="service_img"/>
                         </div>
                         <div class="servicePara">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section class="install">
+                <div class="container">
+                    <h3>everything is ready. just buy and install now</h3>
+                    <p>Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
+                    <button class="btn_purchase">Purchase Now</button>
+                </div>
+            </section>
+
+            <section class="funFact">
+                <div class="funDivs">
+                    <div class="divFun1">
+                        <div class="funBorder1"></div>
+                        <img src="./assets/images/funSvg1.svg" class="funSvg1" alt="fun_svg1"/>
+                        <p>4609</p>
+                        <p class="text1">Works</p>
+                    </div>
+                    <div class="divFun2">
+                        <div class="funBorder2"></div>
+                        <img src="./assets/images/funSvg2.svg" class="funSvg2" alt="fun_svg2"/>
+                        <p>3470</p>
+                        <p class="text2">Customers</p>
+                    </div>
+                    <div class="divFun3">
+                        <div class="funBorder3"></div>
+                        <img src="./assets/images/funSvg3.svg" class="funSvg3" alt="fun_svg3"/>
+                        <p>2908</p>
+                        <p class="text3">Purchase</p>
+                    </div>
+                    <div class="divFun4">
+                        <div class="funBorder4"></div>
+                        <img src="./assets/images/funSvg4.svg" class="funSvg4" alt="fun_svg4"/>
+                        <p>1908</p>
+                        <p class="text4">Office</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pricingTable">
+                <div class="container">
+                    <h2>Our Pricing Table</h2>
+
+                    <table>
+                        <tr>
+                            <th>
+                                Personal
+                            </th>
+                            <th>
+                                business
+                            </th>
+                            <th class="proTh">
+                                professional
+                            </th>
+                            <th>
+                                diamond
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="dollar1">$99<span class="tabSpan">/Month</span></td>
+                            <td class="dollar2">$199<span class="tabSpan">/Month</span></td>
+                            <td class="dollar3">$299<span class="tabSpan">/Month</span></td>
+                            <td class="dollar4">$299<span class="tabSpan">/Month</span></td>
+                        </tr>
+                        <tr>
+                            <td>1 Hosting</td>
+                            <td>1 Hosting</td>
+                            <td>1 Hosting</td>
+                            <td>1 Hosting</td>
+                        </tr>
+                        <tr>
+                            <td>2 Email Marketing</td>
+                            <td>2 Email Marketing</td>
+                            <td>2 Email Marketing</td>
+                            <td>2 Email Marketing</td>
+                        </tr>
+                        <tr>
+                            <td>5 Database</td>
+                            <td>5 Database</td>
+                            <td>5 Database</td>
+                            <td>5 Database</td>
+                        </tr>
+                        <tr>
+                            <td>2 Design Pack</td>
+                            <td>2 Design Pack</td>
+                            <td>2 Design Pack</td>
+                            <td>2 Design Pack</td>
+                        </tr>
+                        <tr>
+                            <td>3 Website Layouts</td>
+                            <td>3 Website Layouts</td>
+                            <td>3 Website Layouts</td>
+                            <td>3 Website Layouts</td>
+                        </tr>
+                        <tr>
+                            <td>5 Header Style</td>
+                            <td>5 Header Style</td>
+                            <td>5 Header Style</td>
+                            <td>5 Header Style</td>
+                        </tr>
+                        <tr>
+                            <td> 3 Online Store</td>
+                            <td> 3 Online Store</td>
+                            <td> 3 Online Store</td>
+                            <td> 3 Online Store</td>
+                        </tr>
+                        <tr>
+                            <td class="tabBtn">
+                                <button class="tableBtn1">buy now</button>
+                            </td>
+                            <td class="tabBtn">
+                                <button class="tableBtn1">buy now</button>
+                            </td>
+                            <td class="tabBtn">
+                                <button class="tableBtn3">buy now</button>
+                            </td>
+                            <td class="tabBtn">
+                                <button class="tableBtn1">buy now</button>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </section>
 </body>
